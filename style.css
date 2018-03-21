@@ -1,0 +1,38 @@
+body{
+background: url('https://o.aolcdn.com/images/dims3/GLOB/crop/5750x3025+0+221/resize/1200x630!/format/jpg/quality/85/http%3A%2F%2Fo.aolcdn.com%2Fhss%2Fstorage%2Fmidas%2Fe4a1355ad160a67d6e5420ee13f33363%2F205896130%2Frock-concert-picture-id627682404');
+    margin: 0px;
+}
+.allKeys{
+    min-height: 300px;
+    width: 100%;
+    position: relative;
+    margin-top: 13%;
+    margin-left: 20%;
+}  
+.key{
+    border: 2px solid black;
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin: 25px 25px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold; 
+    text-shadow: rgb(15, 15, 15);
+    transition: all 0.08s;
+}
+span{
+    display: block;
+    color: rgb(240, 139, 6);
+    font-size: 15px;
+    margin: 10px;
+}
+.playing {
+    border: 2px solid rgb(245, 180, 2);
+    transform: scale(1.2);
+    box-shadow: rgb(15, 15, 15);
+}

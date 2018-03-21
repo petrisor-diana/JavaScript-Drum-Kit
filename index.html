@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Drum Kit</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="allKeys">
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">one clap</span>
+            
+        </div>
+        <div data-key="66" class="key">
+            <kbd>B</kbd>
+            <span class="sound">electro cricket</span>   
+        </div>
+        <div data-key="67" class="key">
+            <kbd>C</kbd>
+            <span class="sound">ambient kick</span>
+        </div>
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">gated clap</span>
+        </div>
+        <div data-key="69" class="key">
+            <kbd>E</kbd>
+            <span class="sound">beepy kick</span>
+        </div>
+    </div>
+    <audio data-key="65" src="https://sampleswap.org/samples-ghost/DRUMS%20and%20SINGLE%20HITS/claps/32[kb]clap909.aif.mp3"></audio>
+    <audio data-key="66" src="https://sampleswap.org/samples-ghost/DRUMS%20and%20SINGLE%20HITS/claps/8[kb]electro-cricket-clap4.aif.mp3"></audio>
+    <audio data-key="67" src="https://sampleswap.org/samples-ghost/DRUMS%20and%20SINGLE%20HITS/kicks/160[kb]ambient_kick.aif.mp3"></audio>
+    <audio data-key="68" src="https://sampleswap.org/samples-ghost/DRUMS%20and%20SINGLE%20HITS/claps/66[kb]Gated-Clap.wav.mp3"></audio>
+    <audio data-key="69" src="https://sampleswap.org/samples-ghost/DRUMS%20and%20SINGLE%20HITS/kicks/13[kb]beepy-kick.wav.mp3"></audio>
+
+    <script type="text/javascript" src="dom.js"> </script>
+</body>
+
+</html>
